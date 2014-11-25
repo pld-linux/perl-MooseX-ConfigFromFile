@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	MooseX
 %define	pnam	ConfigFromFile
+%include	/usr/lib/rpm/macros.perl
 Summary:	MooseX::ConfigFromFile - An abstract Moose role for setting attributes from a configfile
 Summary(pl.UTF-8):	MooseX::ConfigFromFile - Abstrakcyjna rola Moose do ustawiania atrybutów z pliku konfiguracyjnego
 Name:		perl-MooseX-ConfigFromFile
@@ -15,8 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d473a4379f05f8ea8f7aeac1b1662d2a
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/MooseX-ConfigFromFile/
+URL:		http://search.cpan.org/dist/MooseX-ConfigFromFile/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
