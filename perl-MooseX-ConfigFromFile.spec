@@ -4,7 +4,6 @@
 
 %define	pdir	MooseX
 %define	pnam	ConfigFromFile
-%include	/usr/lib/rpm/macros.perl
 Summary:	MooseX::ConfigFromFile - An abstract Moose role for setting attributes from a configfile
 Summary(pl.UTF-8):	MooseX::ConfigFromFile - Abstrakcyjna rola Moose do ustawiania atrybutów z pliku konfiguracyjnego
 Name:		perl-MooseX-ConfigFromFile
